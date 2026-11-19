@@ -21,3 +21,8 @@ updates:
           - "*"
     cooldown:
       default-days: 7
+    ignore:
+      # astro check does not run on TypeScript 7 yet.
+      - dependency-name: typescript
+        versions:
+          - ">=7"
