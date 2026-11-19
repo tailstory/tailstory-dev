@@ -5,16 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro build && wrangler dev",
+    "preview": "astro build && npx wrangler dev",
     "astro": "astro",
-    "deploy": "wrangler deploy"
+    "deploy": "npx wrangler deploy"
   },
   "dependencies": {
     "astro": "^7.4.11"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.7",
-    "wrangler": "4.160.1"
+    "@biomejs/biome": "2.6.7"
   },
   "engines": {
     "node": ">=24.12.0"
